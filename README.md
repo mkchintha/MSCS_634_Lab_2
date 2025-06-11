@@ -24,5 +24,7 @@ The goal of this lab is to apply two supervised machine learning algorithms—K-
 
 ## Challenges and Decisions
 •⁠  ⁠RNN's performance depended heavily on the selected radius. Initially, many predictions returned ⁠ -1 ⁠ (unclassified), so we added logic to filter these out during evaluation.
+
 •⁠  ⁠Selecting appropriate values for ⁠ k ⁠ and ⁠ radius ⁠ required iterative testing. We chose commonly used benchmark values for demonstration.
+
 •⁠  ⁠The wine dataset’s small size made it ideal for quick experimentation but also required careful handling to avoid overfitting.
